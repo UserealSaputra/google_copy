@@ -14,7 +14,7 @@ class RouteRegister extends Component {
             <BrowserRouter>
                 <div>
                     <Route path="/google/index" component={BrowserIndex} />
-                    <Route path="/google/default" component={GoogleIndex} />
+                    <Route path="/" component={GoogleIndex} />
                 </div>
             </BrowserRouter>
         );
