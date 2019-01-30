@@ -52,13 +52,23 @@ input:focus{
     height: 36px;
     padding: 0 16px;
     margin: 0px 6px;
-    border: none;
+    border: 1px solid #f1f1f1;
     border-radius: 2px;
     font-size: 13px;
     background: #f1f1f1;
     font-family: arial, sans-serif;
     font-weight: bold;
     color: #757575;
+    cursor: pointer;
+}
+.src_button:hover{
+    background-image: linear-gradient(#f6f6f6, #f1f1f1);
+    border: 1px solid #c8c8c8;
+    background-color: none;
+}
+.src_button:focus{
+    border: 1px solid #4285f4;
+    outline: none;
 }
 .bookmarkgroup{
     width: 560px; 
@@ -101,7 +111,8 @@ input:focus{
 }
 .foot div * {
     margin: 0px 13.5px;
-    color: #444;
+    color: #6f6f6f;
+    font-family: arial, sans-serif;
 }
 .foot a:hover, .offer a:hover{
     cursor: pointer;

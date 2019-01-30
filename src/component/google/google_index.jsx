@@ -20,8 +20,8 @@ class GoogleIndex extends Component {
                     ]}
                     justify={'center'}
                     items={[
-                        <button className="src_button">Google Search</button>,
-                        <button className="src_button">I'm Feeling Lucky</button>
+                        <button className="src_button" onClick={() => window.location.href = 'https://www.google.com'}>Google Search</button>,
+                        <button className="src_button" onClick={() => window.location.href = 'https://www.google.com/doodles/'}>I'm Feeling Lucky</button>
                     ]}
                     links={[
                         <div className="offer">
